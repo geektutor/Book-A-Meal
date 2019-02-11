@@ -11,18 +11,19 @@
     <title>Book-A-Meal</title>
     <link rel="shortcut icon" type="image/png" href="images/logo.png" />
 
-    <!-- CSS -
-    <link href="css/2.css" rel="stylesheet"> -->
+    <!-- CSS -->
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/meal.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <script type="text/javascript" src="js/signup.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
 </head>
 
@@ -30,10 +31,9 @@
 
     <!--Header area-->
     <div class="header">
-        <a href="index.html" class="logo">Book A Meal</a>
+        <a href="#" class="logo">Book A Meal</a>
         <div class="header-right">
-            <a href="signup.html#login" class="login" id="l-b" onclick="login()">Login</a>
-            <a href="#signup" class="login" id="s-b" onclick="signup()">Sign Up</a>
+            <a href="#" class="login">Logout</a>
             <a href="#" class="hover"> Home </a>
             <a href="meal.html" class="hover"> Meals </a>
             <a href="contact.html" class="hover">Contact Us</a>
@@ -42,115 +42,91 @@
 
     <!--Hero slider-->
     <div class='heros'>
-        <h1 class='hero-title'>Our Meals</h1>
+        <h1 class='hero-title'>View Meals</h1>
     </div>
-    <h1 class='hero-subtitle'>View our list of meal</h1>
-    <!--List of meals-->
-    <div class="main-card">
-        <div class="card" id="meal-image">
-            <a href="#.">
-                <div class="card-image">
-                    <img src="images/card-image.jpg" alt="Orange" />
-                </div>
-                <div class="meal-body">
-                    <div class="meal-title">
-                        <h3>
-                            Rice and Beans
-                        </h3>
-                    </div>
-                    <div class="meal-pay">
-                        <div class="meal-price">
-                            #5000
-                            <br>
-                            <div class="meal-vendor">Latifat Foods</div>
-                        </div>
-                        <div class="meal-button">
-                            Buy Now
-                        </div>
-                    </div>
-                </div>
-                <br><br>
-            </a>
-            <div class="edit-button">
-                Edit
-            </div>
-            <div class="delete-button">
-                Delete
-            </div>
-        </div>
-        <div class="card" id="meal-image">
-            <a href="#.">
-                <div class="card-image">
-                    <img src="images/card-image.jpg" alt="Orange" />
-                </div>
-                <div class="meal-body">
-                    <div class="meal-title">
-                        <h3>
-                            Rice and Beans
-                        </h3>
-                    </div>
-                    <div class="meal-pay">
-                        <div class="meal-price">
-                            #5000
-                            <br>
-                            <div class="meal-vendor">Latifat Foods</div>
-                        </div>
-                        <div class="meal-button">
-                            Buy Now
-                        </div>
-                    </div>
-                </div>
-                <br><br>
-            </a>
-            <div class="edit-button">
-                Edit
-            </div>
-            <div class="delete-button">
-                Delete
-            </div>
-        </div>
-        <div class="card" id="meal-image">
-            <a href="#.">
-                <div class="card-image">
-                    <img src="images/card-image.jpg" alt="Orange" />
-                </div>
-                <div class="meal-body">
-                    <div class="meal-title">
-                        <h3>
-                            Rice and Beans
-                        </h3>
-                    </div>
-                    <div class="meal-pay">
-                        <div class="meal-price">
-                            #5000
-                            <br>
-                            <div class="meal-vendor">Latifat Foods</div>
-                        </div>
-                        <div class="meal-button">
-                            Buy Now
-                        </div>
-                    </div>
-                </div>
-                <br><br>
-            </a>
-            <div class="edit-button">
-                Edit
-            </div>
-            <div class="delete-button">
-                Delete
-            </div>
+    <h1 class='hero-subtitle'>Built for ALCwithforLoop</h1>
+    <div class='hero-arrow'>▼</div>
+    </div>
+    <!--Card area-->
+
+    <!--Changing the number in the column_# class changes the number of columns-->
+
+    <div id="wrap">
+        <div id="columns" class="columns_4">
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Iyan</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
+
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Rice</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
+
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Rice</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
+
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Rice</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
+
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Rice</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
+
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Rice</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
+
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Rice</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
+
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Rice</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
+            <figure>
+                <img src="images/meal.jpeg">
+                <figcaption>Rice</figcaption>
+                <span class="price">#4400</span>
+                <a class="button" href="#">Buy Now</a>
+            </figure>
         </div>
 
 
-    </div>
-    <!--Footer-->
-    <div class="footer">Built with love for ALCwithforLoop
-        <div class="right">
-            <a href="privacy.html" class="pad">Privacy Policy</a>
-            <a href="terms.html" class="pad">Terms</a>
-            <a href="faq.html" class="pad">FAQs</a>
+
+        <!--Footer-->
+        <div class="footer">Built with love for ALCwithforLoop
+            <div class="right">
+                <a href="privacy.html" class="pad">Privacy Policy</a>
+                <a href="terms.html" class="pad">Terms</a>
+                <a href="faq.html" class="pad">FAQs</a>
+            </div>
         </div>
-    </div>
+
 </body>
 
 </html>
