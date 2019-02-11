@@ -19,7 +19,6 @@ body {
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
-
 }
 .header a.logo {
     background-color: #ddd;
@@ -196,15 +195,17 @@ body {
 
 /* Dashboard css */
 
-.card-dash {
-  height: 120px;
-  position: relative;
-  width: 100%;
-  background-color: rgb(63, 21, 21);
-  padding: 5px;
-  border:1px solid #00f3ca;
-  margin: 0px auto;
+.main-dash {
+  display: flex;
+  padding: 20px 10px;
 }
+.card-dash {
+  width: 400px;
+  margin: 0px auto;
+  background-color: white;
+  padding: 5px;
+}
+
 .card-dash a {
   text-align: center;
   display: block;
@@ -242,4 +243,32 @@ body {
   float: left;
   background-color: green;
   padding: 5px;
+}
+
+
+/* View orders */
+
+.view-order {
+  overflow: hidden;
+  background-color: #2b608a;
+  padding: 20px 10px;
+  margin-top: 2px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.view-order a {
+  float: left;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.view-order .right {
+  float: right;
+  text-decoration: underline;
+}
+.select {
+  display: block;
+  padding: 20px;
 }
