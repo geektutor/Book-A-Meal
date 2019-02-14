@@ -12,41 +12,53 @@
     <link rel="shortcut icon" type="image/png" href="images/logo.png" />
 
     <!-- CSS -->
-    <link href="css/2.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/2.css" rel="stylesheet">
+    <link href="css/add.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <script type="text/javascript" src="js/signup.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <link rel="stylesheet" href="css/3.css">
 
 </head>
 
-<body>
-
+<body class="sticky-header">
     <!--Header area-->
-    <div class="header">
-        <a href="index.html" class="logo">Book A Meal</a>
-        <div class="header-right">
-            <a href="signup.html#login" class="login" id="l-b" onclick="login()">Login</a>
-            <a href="#signup" class="login" id="s-b" onclick="signup()">Sign Up</a>
-            <a href="#" class="hover"> Home </a>
-            <a href="meal.html" class="hover"> Meals </a>
-            <a href="contact.html" class="hover">Contact Us</a>
-        </div>
-    </div>
+    <header>
+        <h1>Add A Meal</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="meal.html">Meals</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <!--Hero slider-->
+    <!--Hero slider
     <div class='heros'>
-        <h1 class='hero-title'>Order Meal</h1>
+        <h1 class='hero-title'>Add A Meal</h1>
     </div>
-    <h1 class='hero-subtitle'>Order a meal</h1>
+    <h1 class='hero-subtitle'>Built for ALCwithforLoop</h1>
+    <div class='hero-arrow'>▼</div>
+    </div>-->
 
+    <!--Form area-->
     
+    <form id="contact">
+        <h2>How Can We Help?</h2>
+        <p type="Name:"><input placeholder="What is your name?"></p>
+        <p type="Email:"><input placeholder="What is your email?" type="email"></p>
+        <p type="Description:"><textarea placeholder="What's the enquiry" class="desc"></textarea></p>
+        <button>Send Message</button>
+    </form>
 
     <!--Footer-->
     <div class="footer">Built with love for ALCwithforLoop
@@ -56,6 +68,7 @@
             <a href="faq.html" class="pad">FAQs</a>
         </div>
     </div>
+
 </body>
 
 </html>
