@@ -91,6 +91,8 @@ body {
   }
   /* Styles for card */
 .main-card {
+    width: 100%;
+    margin: 50px auto;
     display: flex;
 
 }
@@ -179,7 +181,7 @@ body {
   left: 0;
   padding: 1rem;
   background-color: #212529;
-  text-align: left;
+  text-align: center;
   color: #efe;
 }
 .right {
