@@ -161,6 +161,14 @@ textarea {
   color: #ffffff;
   transition: all 0.5s ease;
   -webkit-appearance: none;
+  display: inline;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+  background-color: #C9785C;
 }
 .button:hover, .button:focus {
   background: #179b77;

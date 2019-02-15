@@ -1,0 +1,309 @@
+body {
+    background: url(https://dl.dropbox.com/s/uewkr2x3layjwd2/leaves.png);
+    color: #424242;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: #ec407a;
+    coration: none;
+  }
+  a text-debody {
+    background: url(https://dl.dropbox.com/s/uewkr2x3layjwd2/leaves.png);
+    color: #424242;
+  }
+  a * {
+    box-sizing: border-box;
+  }
+  a a {
+    color: #ec407a;
+    text-decoration: none;
+  }
+  a a :hover,
+  a a :focus,
+  a a :active {
+    color: #616161;
+  }
+  a .container {
+    margin: 0 auto;
+    width: 1024px;
+    display: flex;
+  }
+  a .cart,
+  a .checkout {
+    flex-basis: 50%;
+    margin: 1.5em;
+    background-color: #fafafa;
+  }
+  a .ribbon {
+    margin: 0 0 0 -20px;
+    padding: 5px 0;
+    width: calc(100% + 20px);
+    background-color: #e91e63;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  a .header {
+    margin: 0;
+    padding: 0.3em 1em 0.3em;
+    border-top: dashed 1px #fafafa;
+    border-bottom: dashed 1px #fafafa;
+    color: #fafafa;
+    font-size: 1.6em;
+    vertical-align: middle;
+  }
+  a .header::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px #c2185b;
+  }
+  a .wrapper {
+    padding: 1.5em;
+  }
+  a .text {
+    margin: 1.6em 0 2.6em;
+  }
+  a .table {
+    margin-bottom: 2.6em;
+    width: 100%;
+    border-right: 2px solid #fce4ec;
+    border-left: 2px solid #fce4ec;
+    border-collapse: collapse;
+  }
+  a .table th, a .table td {
+    padding: 0.3em 0.6em;
+  }
+  a .table__header {
+    background-color: #fce4ec;
+  }
+  a .table__item, a .table__unit-price, a .table__quantity, a .table__amount {
+    width: 100px;
+  }
+  a .table__body tr:nth-child(even) {
+    background-color: #fce4ec;
+  }
+  a .table__body tr th {
+    text-align: left;
+  }
+  a .table__body tr td {
+    text-align: right;
+  }
+  a .table__image {
+    margin: 0.6em 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  a .table__good {
+    text-align: center;
+  }
+  a .card__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  a .card__form {
+    order: 1;
+    margin-top: 2.6em;
+  }
+  a .card__label {
+    display: inline-block;
+    width: 10em;
+  }
+  a .card__number, a .card__name, a .card__expiry, a .card__cvc, a .card__checkbox {
+    padding: 0.3em 0.6em;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  }
+  a .card__number:focus, a .card__name:focus, a .card__expiry:focus, a .card__cvc:focus {
+    outline: none;
+    border: 1px solid #fce4ec;
+    box-shadow: 0 0 3px #fce4ec;
+  }
+  a .card__expiry {
+    width: 7em;
+  }
+  a .card__cvc {
+    width: 4em;
+  }
+  a .card__remember, a .card__remark {
+    font-size: 0.8em;
+  }
+  a .card__remember, a .card__remark {
+    margin-bottom: 2.6rem;
+  }
+  a .card__button {
+    padding: 0.3em 1em;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: #fafafa;
+    background-color: #ec407a;
+    font-size: 1.6em;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  }
+  a .card__button:hover, a .card__button:focus, a .card__button:active {
+    color: #ec407a;
+    background-color: #fce4ec;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  a .jp-card-container {
+    order: 0;
+  }
+  a :hover,
+  a :focus,
+  a :active {
+    color: #616161;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 1024px;
+    display: flex;
+  }
+  
+  .cart,
+  .checkout {
+    flex-basis: 50%;
+    margin: 1.5em;
+    background-color: #fafafa;
+  }
+  
+  .ribbon {
+    margin: 0 0 0 -20px;
+    padding: 5px 0;
+    width: calc(100% + 20px);
+    background-color: #e91e63;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .header {
+    margin: 0;
+    padding: 0.3em 1em 0.3em;
+    border-top: dashed 1px #fafafa;
+    border-bottom: dashed 1px #fafafa;
+    color: #fafafa;
+    font-size: 1.6em;
+    vertical-align: middle;
+  }
+  
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px #c2185b;
+  }
+  
+  .wrapper {
+    padding: 1.5em;
+  }
+  
+  .text {
+    margin: 1.6em 0 2.6em;
+  }
+  
+  .table {
+    margin-bottom: 2.6em;
+    width: 100%;
+    border-right: 2px solid #fce4ec;
+    border-left: 2px solid #fce4ec;
+    border-collapse: collapse;
+  }
+  .table th, .table td {
+    padding: 0.3em 0.6em;
+  }
+  .table__header {
+    background-color: #fce4ec;
+  }
+  .table__item, .table__unit-price, .table__quantity, .table__amount {
+    width: 100px;
+  }
+  .table__body tr:nth-child(even) {
+    background-color: #fce4ec;
+  }
+  .table__body tr th {
+    text-align: left;
+  }
+  .table__body tr td {
+    text-align: right;
+  }
+  .table__image {
+    margin: 0.6em 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .table__good {
+    text-align: center;
+  }
+  
+  .card__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .card__form {
+    order: 1;
+    margin-top: 2.6em;
+  }
+  .card__label {
+    display: inline-block;
+    width: 10em;
+  }
+  .card__number, .card__name, .card__expiry, .card__cvc, .card__checkbox {
+    padding: 0.3em 0.6em;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  }
+  .card__number:focus, .card__name:focus, .card__expiry:focus, .card__cvc:focus {
+    outline: none;
+    border: 1px solid #fce4ec;
+    box-shadow: 0 0 3px #fce4ec;
+  }
+  .card__expiry {
+    width: 7em;
+  }
+  .card__cvc {
+    width: 4em;
+  }
+  .card__remember, .card__remark {
+    font-size: 0.8em;
+  }
+  .card__remember, .card__remark {
+    margin-bottom: 2.6rem;
+  }
+  .card__button {
+    padding: 0.3em 1em;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: #fafafa;
+    background-color: #ec407a;
+    font-size: 1.6em;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  }
+  .card__button:hover, .card__button:focus, .card__button:active {
+    color: #ec407a;
+    background-color: #fce4ec;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .jp-card-container {
+    order: 0;
+  }
+  

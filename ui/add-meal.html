@@ -13,6 +13,8 @@
 
     <!-- CSS -->
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/2.css" rel="stylesheet">
+    <link href="css/add.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,15 +25,15 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript" src="js/index.js"></script>
+
     <link rel="stylesheet" href="css/3.css">
-    <script type="text/javascript" src="js/3.js"></script>
 
 </head>
 
-<body>
+<body class="sticky-header">
     <!--Header area-->
     <header>
-        <h1>User Dashboard</h1>
+        <h1>Add A Meal</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="meal.html">Meals</a>
@@ -39,59 +41,25 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <!--Card area-->
-    <div class="main-dash">
-        <div class="card-dash">
-            <a href="#">
-                Order a meal
-            </a>
-        </div>
-        <div class="card-dash">
-            <a href="#">
-                Request A Meal
-            </a>
-        </div>
 
-        <div class="card-dash">
-            <a href="#">
-                FAQs
-            </a>
-        </div>
-        <div class="card-dash">
-            <a href="#">
-                Check my orders
-            </a>
-        </div>
-        <div class="card-dash">
-            <a href="#">
-                Meal of the day
-            </a>
-        </div>
-
-        <div class="card-dash">
-            <a href="#">
-                Logout
-            </a>
-        </div>
+    <!--Hero slider
+    <div class='heros'>
+        <h1 class='hero-title'>Add A Meal</h1>
     </div>
-    <div class="main-dash">
-        <div class="card-dash">
-            <a href="#">
-                Check my orders
-            </a>
-        </div>
-        <div class="card-dash">
-            <a href="#">
-                Meal of the day
-            </a>
-        </div>
+    <h1 class='hero-subtitle'>Built for ALCwithforLoop</h1>
+    <div class='hero-arrow'>▼</div>
+    </div>-->
 
-        <div class="card-dash">
-            <a href="#">
-                Logout
-            </a>
-        </div>
-    </div>
+    <!--Form area-->
+
+    <form class="form">
+        <h2>Add A New Meal</h2>
+        <p type="Name:"><input placeholder="Name of the meal?"></p>
+        <p type="Price:"><input placeholder="How much is it?" value="#"></p>
+        <p type="Description:"><textarea placeholder="Short description" class="desc"></textarea></p>
+        <p type="Picture:"><input type="file"></p>
+        <button>Add Meal</button>
+    </form>
 
     <!--Footer-->
     <footer>
