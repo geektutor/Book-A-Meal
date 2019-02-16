@@ -1,16 +1,15 @@
-import Routes from './routes';
-
-const express = require('express');
+// import Routes from './routes';
+import express from 'express';
 
 // Set up the express app
 const app = express();
 
-const PORT = 8080;
+const PORT = 2302;
 
 app.use(express.json());
-app.use('/api/v1', Routes);
-app.get('/home', (req, res) => {
-  res.status(200).send('Home url');
+// app.use('/api/v1', Routes);
+app.get('/', (req, res) => {
+  res.send('The API is working');
 });
 
 app.listen(PORT, () => {
