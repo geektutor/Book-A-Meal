@@ -1,5 +1,5 @@
-// import Routes from './routes';
 import express from 'express';
+import Routes from './routes';
 
 // Set up the express app
 const app = express();
@@ -7,7 +7,9 @@ const app = express();
 const PORT = 2302;
 
 app.use(express.json());
-// app.use('/api/v1', Routes);
+
+app.use('/api/v1/meals', Routes);
+
 app.get('/', (req, res) => {
   res.send('The API is working');
 });
