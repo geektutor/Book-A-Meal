@@ -23,6 +23,7 @@ const MealService = {
     return meal;
   },
   getAMeal(id) {
+    // eslint-disable-next-line no-shadow
     const meal = dummyData.meals.find(meal => meal.id === id);
     return meal || {};
   }
