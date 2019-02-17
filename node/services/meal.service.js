@@ -1,4 +1,5 @@
-import dummyData from '../utils/dummyData';
+/* eslint-disable no-param-reassign */
+import dummyData from '../data/dummyData';
 import Meal from '../models/meal.model';
 
 const MealService = {
@@ -9,11 +10,10 @@ const MealService = {
       newMeal.name = meal.name;
       newMeal.size = meal.size;
       newMeal.price = meal.price;
+      return newMeal;
     });
-
     return validMeals;
   },
-
   addMeal(meal) {
     const mealLength = dummyData.meals.length;
     const lastId = dummyData.meals[mealLength - 1].id;
@@ -22,8 +22,8 @@ const MealService = {
     dummyData.meals.push(meal);
     return meal;
   },
-  getMeal(id) {
-    const meal = dummyData.meals.find(meal => (meal.id = id));
+  getAMeal(id) {
+    const meal = dummyData.meals.find(meal => meal.id === id);
     return meal || {};
   }
 };
