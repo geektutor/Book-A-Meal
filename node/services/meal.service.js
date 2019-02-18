@@ -27,7 +27,7 @@ const MealService = {
     return mealGet || {};
   },
   deleteMeal(id) {
-    const mealGet = dummyData.meals.find(meal => meal.id === id);
+    const mealGet = dummyData.meals.find(meal => Number(meal.id) === Number(id));
     const index = dummyData.meals.indexOf(mealGet);
     dummyData.meals.splice(index, 1);
     return dummyData.meals;
