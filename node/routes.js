@@ -13,8 +13,8 @@ router.post('/meals/', MealController.addAMeal);
 router.get('/meals/:id', MealController.getSingleMeal);
 
 // add menu controller
-router.get('/menu/', MenuController.fetchAllMenus);
+router.get('/menu/', MenuController.fetchMenu);
 
-router.post('/menu/', MenuController.addAMenu);
+router.post('/menu/', MenuController.setMenu);
 
 export default router;
