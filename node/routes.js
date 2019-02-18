@@ -12,6 +12,8 @@ router.post('/meals/', MealController.addAMeal);
 
 router.get('/meals/:id', MealController.getSingleMeal);
 
+router.get('/meals/:id', MealController.deleteMeal);
+
 // add menu controller
 router.get('/menu/', MenuController.fetchMenu);
 
