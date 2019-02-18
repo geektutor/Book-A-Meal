@@ -3,7 +3,7 @@ import dummyData from '../data/dummyData';
 import Menu from '../models/menu.model';
 
 const MenuService = {
-  fetchAllMenus() {
+  fetchMenu() {
     const validMenus = dummyData.menus.map(menu => {
       const newMenu = new Menu();
       newMenu.id = menu.id;
@@ -14,7 +14,7 @@ const MenuService = {
     });
     return validMenus;
   },
-  addMenu(menu) {
+  setMenu(menu) {
     const menuLength = dummyData.menus.length;
     const lastId = dummyData.menus[menuLength - 1].id;
     const newId = lastId + 1;
